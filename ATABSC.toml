@@ -1,0 +1,41 @@
+# Federation service provided by StellarID.io-----
+
+ACCOUNTS=[
+"GADQBYC7PVYTL25JYTRSKTPKK4E5SG3QL47RSWVSAVOMYNKFU5U7FQRW",
+"GDP2Q2EDRAAHP457YRNVUC37POKNPP6BND6JSLZE2V2C3UBRPY7V7R6D",
+"GB6MSJJ53NJJUPRTNXSNJ3RDQZHCLUKU2BH75WKBYXEUGVH3QQZ2REI7"
+]
+
+FEDERATION_SERVER="https://stellarid.io/federation/"
+
+[DOCUMENTATION]
+ORG_NAME="ATABS Inc"
+ORG_DBA="ATABSC"
+ORG_URL="https://www.atabsinc.com"
+ORG_LOGO="https://www.atabsinc.com/ATBSLOGOsml.png"
+ORG_DESCRIPTION="ATABSINC develops a memecoin cryptocurrency backed one-for-one to the US dollar during it's initial offering. The coin represents a meme derived from the ATABS acronym."
+ORG_PHYSICAL_ADDRESS="atabsc*atabsinc.com"
+ORG_PHYSICAL_ADDRESS_ATTESTATION="https://stellarid.io/test/"
+ORG_PHONE_NUMBER="+19013317699"
+ORG_GITHUB="ATABS"
+ORG_OFFICIAL_EMAIL="custsvc@atabsinc.com"
+
+[[PRINCIPALS]]
+name="Adimu Ali"
+email="dradimu@atabsinc.com"
+discord="https://discord.gg/X7MXpScm"
+github="https://github.com/ABDSVCS/ATABSC"
+
+[[CURRENCIES]]
+code="atabsc"
+issuer="GADQBYC7PVYTL25JYTRSKTPKK4E5SG3QL47RSWVSAVOMYNKFU5U7FQRW"
+display_decimals=7
+name="Share Issue"
+desc="1 atabsc=14 xlm. This intrinsic value is what makes this token speculative and the reason for private sale."
+conditions="There will only ever be 249,999,999 atabsc tokens in existence. These tokens provide the hodler with the double benefit of airdrops from the ecosystem, and increased value if held and its popularity and use increases, causing a rise in the value of xlm. 61M atabsc will be distributed through air drop for hodlers of atabsc. 187M shares are available for private sale, of which, the first 12M are voting. We will distribute 1-5 million tokens via airdrops annually on the fifteenth of January" 
+image="https://www.atabsinc.com/atabscoin_001.png"
+fixed_number=249999999
+status="live"
+is_asset_anchored=true
+anchor_asset_type="crypto"
+anchor_asset="atabsc"
